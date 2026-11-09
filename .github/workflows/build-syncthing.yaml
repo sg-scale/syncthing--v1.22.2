@@ -48,7 +48,7 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v7
         # `cache: true` gives us automatic caching of modules and build
         # cache, speeding up builds. The cache key is dependent on the Go
         # version and our go.sum contents.
@@ -87,7 +87,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v7
         with:
           go-version: ${{ env.GO_VERSION }}
 
