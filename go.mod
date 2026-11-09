@@ -1,6 +1,6 @@
 module github.com/syncthing/syncthing
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/AudriusButkevicius/pfilter v0.0.10
@@ -30,7 +30,7 @@ require (
 	github.com/klauspost/cpuid/v2 v2.2.1 // indirect
 	github.com/lib/pq v1.10.7
 	github.com/lucas-clemente/quic-go v0.31.0
-	github.com/maruel/panicparse/v2 v2.3.1
+	github.com/maruel/panicparse/v2 v2.5.0
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.5.0
 	github.com/minio/sha256-simd v1.0.0
 	github.com/miscreant/miscreant.go v0.0.0-20200214223636-26d376326b75
@@ -51,7 +51,7 @@ require (
 	golang.org/x/crypto v0.3.0
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/net v0.2.0
-	golang.org/x/sys v0.2.0
+	golang.org/x/sys v0.31.0
 	golang.org/x/text v0.4.0
 	golang.org/x/time v0.2.0
 	golang.org/x/tools v0.3.0
