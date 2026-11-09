@@ -1,6 +1,6 @@
 module github.com/syncthing/syncthing
 
-go 1.18
+go 1.26.0
 
 require (
 	github.com/AudriusButkevicius/pfilter v0.0.10
@@ -31,7 +31,7 @@ require (
 	github.com/lib/pq v1.10.7
 	github.com/lucas-clemente/quic-go v0.31.0
 	github.com/maruel/panicparse/v2 v2.3.1
-	github.com/maxbrunsfeld/counterfeiter/v6 v6.5.0
+	github.com/maxbrunsfeld/counterfeiter/v6 v6.14.0
 	github.com/minio/sha256-simd v1.0.0
 	github.com/miscreant/miscreant.go v0.0.0-20200214223636-26d376326b75
 	github.com/oschwald/geoip2-golang v1.8.0
@@ -48,14 +48,14 @@ require (
 	github.com/thejerf/suture/v4 v4.0.2
 	github.com/urfave/cli v1.22.10
 	github.com/vitrun/qart v0.0.0-20160531060029-bf64b92db6b0
-	golang.org/x/crypto v0.3.0
-	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/net v0.2.0
-	golang.org/x/sys v0.2.0
-	golang.org/x/text v0.4.0
+	golang.org/x/crypto v0.57.0
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/net v0.59.0
+	golang.org/x/sys v0.48.0
+	golang.org/x/text v0.42.0
 	golang.org/x/time v0.2.0
-	golang.org/x/tools v0.3.0
-	google.golang.org/protobuf v1.28.1
+	golang.org/x/tools v0.50.0
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
@@ -77,6 +77,8 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/exp v0.0.0-20221114191408-850992195362 // indirect
+	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260908163034-4bcc4b2ee518 // indirect
 )
 
 // https://github.com/gobwas/glob/pull/55
