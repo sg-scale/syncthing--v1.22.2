@@ -46,7 +46,7 @@ jobs:
           git config --global core.autocrlf false
           git config --global core.eol lf
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-go@v3
         # `cache: true` gives us automatic caching of modules and build
@@ -80,7 +80,7 @@ jobs:
           git config --global core.autocrlf false
           git config --global core.eol lf
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         # `fetch-depth: 0` because we want to check out the entire repo
         # including tags and branches, not just the latest commit which
         # lacks version info.
